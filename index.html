@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+
+<head>
+  <title>Crystal Collector Game</title>
+  <link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
+  <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+  <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+  <script src='assets/javascript/game.js'></script>
+</head>
+
+<body>
+<div id='all'>
+  <h1 id='title'>Crystal Collector!</h1>
+  <p id='instructions'>You will be given a random number at the start of the game.<br>There are five crystals below. By clicking on a crystal you will add a specific amount of points to you total score.<br>You win the game by matching your total score to the random number.<br>You lose the game if your total score goes above the random number.<br>The value of each crystal is hidden from you until you click on it.<br>Each time when the game starts, the game will change the values of each crystal.</p>
+  <div id='gameBox'>
+    <div id='spacing'></div>
+    <div id='randomNumber'></div>
+    <div id='crystalContainer'>
+      <img id='crystalOne' class='crystals' src='assets/images/crystalOne.png'>
+      <img id='crystalTwo' class='crystals' src='assets/images/crystalTwo.png'>
+      <img id='crystalThree' class='crystals' src='assets/images/crystalThree.png'>
+      <img id='crystalFour' class='crystals' src='assets/images/crystalFour.png'>
+      <img id='crystalFive' class='crystals' src='assets/images/crystalFive.png'>
+    </div>
+    <p id='totalScoreIs'>Total Score</p>
+    <div id='totalScore'></div>
+  </div>
+  <div id='wins'>Wins: 0<br>Losses: 0</div>
+</div>
+</body>
+
+</html>
