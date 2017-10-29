@@ -1,1 +1,3 @@
-# Crystal-Game-Week4
+# Crystal-Game
+
+Simple math game application using Javascript.
